@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Accessories</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8.1.4/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/wrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<div class="content-wrapper">
+    <header class="header">
+        <div class="header_wrapper link">
+            <nav class="header_nav">
+                <ul class="account_form">
+                    <li class="header_list-item">
+                        <div class="icons">
+                            <span><a href="#"><i id="account-btn" class="fas fa-user"></i>My account</a></span>
+                            </i>
+                        </div>
+                    </li>
+                    <div class="account-form">
+                        <div id="close-form" class="fas fa-times"></div>
+                        <div class="buttons">
+                            <span class="btns active login-btn">Login</span>
+                            <span class="btns active register-btn">Register</span>
+                        </div>
+                        <form action="#" class="active login-form">
+                            <h3>Login</h3>
+                            <input type="email" placeholder="enter your email" class="boxes">
+                            <input type="password" placeholder="enter your password" class="boxes">
+                            <div class="form-info">
+                                <div>
+                                    <input type="checkbox" name="" id="remember-me">
+                                    <label for="remember-me">remember-me</label>
+                                </div>
+                                <a href="#">forgot password?</a>
+                            </div>
+                            <input type="submit" value="Login Now" class="btns">
+                        </form>
+                        <form action="#" class="register-form">
+                            <h3>Register</h3>
+                            <input type="email" placeholder="enter your email" class="boxes">
+                            <input type="password" placeholder="enter your password" class="boxes">
+                            <input type="password" placeholder="confirm your password" class="boxes">
+                            <input type="submit" value="Register Now" class="btns">
+                        </form>
+                    </div>
+                    <li class="header_list-item">
+                        <div class="icons">
+                            <span><a href="#"><i id="account-btn" class="fa-solid fa-cart-plus"></i>Cart</a></span>
+                        </div>
+                    </li>
+                    <li class="header_list-item">
+                        <div class="icons">
+                            <span><a href="#"><i id="account-btn"
+                                        class="fa-solid fa-circle-check"></i>Checkout</a></span>
+                        </div>
+                    </li>
+                    <form class="search-form" action="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="search-form__input" type="text" name="find" placeholder="Search">
+                        <button class="search-form__button" type="Submit">
+                        </button>
+                    </form>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- HEADER LOGO -->
+        <div class="header_wrapper_cards">
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+
+            <!-- PHONE/LOGO -->
+
+            <p><i class="fa-solid fa-mobile-screen-button"></i>
+                +123 456 7890<br><br>
+                <span>
+                    Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm
+                </span>
+            </p>
+
+            <!-- CARDS -->
+
+            <a href="#">
+                <i class="fa-solid fa-star"></i>
+                <p>WISHLIST</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-car"></i>
+                <p>COMPARE</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>MY CART</p>
+            </a>
+        </div>
+
+        <!-- MENU BLOCK -->
+
+        <div class="header_wrapper menu_block">
+            <div class="menu_block">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BACKGROUND PICTURE -->
+
+        <section class="home_slider">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide slide" style="background:url(img/bg_1.jpg) no-repeat;">
+                    </section>
+                    <section class="swiper-slide slide" style="background:url(img/bg_2.jpg) no-repeat;">
+                    </section>
+                    <section class="swiper-slide slide" style="background:url(img/bg_3.jpg) no-repeat;">
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </header>
+
+    <div class="container">
+        <main class="content">
+            <!-- MENU ITEM -->
+
+            <section class="menu_item items">
+                <ul>
+                    <li style="background-color: #303030;"><a href="#">
+                            <p>
+                                Headlights
+                            </p>
+                            <span>
+                                Headlights Projector, LED, Factory
+                            </span>
+                            <img src="img/lights.png" alt="Headlights" style="width: 50%;">
+                        </a></li>
+                    <li style="background-color: #1c1c1c;"><a href="#">
+                            <p>
+                                Brakes
+                            </p>
+                            <span>
+                                Brakes, caliper, brake fluid
+                            </span>
+                            <img src="img/brakes.png" alt="brakes" style="margin-right: 70px;">
+                        </a></li>
+                    <li style="background-color: #1c1c1c;"><a href="#">
+                            <p>
+                                Tires and wheels
+                            </p>
+                            <span>
+                                Tires, wheels
+                            </span>
+                            <img src="img/disk.png" alt="disk" style="margin: 40px 90px;">
+                        </a></li>
+                    <li style="background-color: #303030;"><a href="#">
+                            <p>
+                                Car accessories
+                            </p>
+                            <span>
+                                Various car accessories
+                            </span>
+                            <img src="img/chair.png" alt="chairs" style="margin-right: 60px;">
+                        </a></li>
+                </ul>
+            </section>
+
+
+            <!-- SUBJECTS -->
+
+            <section class="menu_item subjects">
+                <h1>Featured Products</h1>
+                <div class="box-conteiner">
+                    <a href="#">
+                        <div class="box">
+                            <img src="img/turbine.png" alt="turbine">
+                            <h3>Latest Car Accessories</h3>
+                            <p>$300</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="box">
+                            <img src="img/lights_2.png" alt="lights">
+                            <h3>Headlights</h3>
+                            <p>$300</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="box">
+                            <img src="img/chair_2.png" alt="chair">
+                            <h3>Chairs and care</h3>
+                            <p>$300</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="box">
+                            <img src="img/sound.png" alt="sounds">
+                            <h3>Speakers and sound</h3>
+                            <p>$300</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="box">
+                            <img src="img/disk_1.png" alt="disk">
+                            <h3>Wheels and tires</h3>
+                            <p>$300</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- ORDER -->
+
+            <section class="order_over">
+                <h1>25% off</h1>
+                <p>On order over $999</p>
+                <span>This Offer is valid on all our items</span><br>
+                <a href="#"><button>Buy now</button></a>
+            </section>
+
+            <!-- FOOTER QUICK LINKS -->
+        </main>
+    </div>
+
+    <footer class="footer">
+        <section class="footer quick_links">
+            <h1>QUICK LINKS</h1>
+            <h1>Newsletter</h1>
+            <ul class="menu_links">
+
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Costumer Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Search Terms</a></li>
+                <li><a href="#">Advanced Search</a></li>
+                <li><a href="#">Orders and Returns</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="footer letter">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua.
+                </p>
+                <form action="">
+                    <input type="email" placeholder="enter your email" class="email">
+                    <input type="submit" value="submit" class="btn">
+                </form>
+            </div>
+        </section>
+        <!-- SOCIAL -->
+        <section class="social">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- INFORMATION -->
+
+        <section class="info_contact">
+            <div class="info">
+                <h1>information</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur dipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="contact">
+                <h1>Contact</h1>
+                <ul class="menu_contact">
+                    <li><img src="img/metka.png" alt="geometka"><a href="#">123, Main Road, Your City, NY
+                            1234</a>
+                    </li>
+                    <li><img src="img/phone_1.png" alt="phone"><a href="#">+123 456 7890</a></li>
+                    <li><img src="img/clock.png" alt="clock">7 Days a week from 10:00 am to 6:00 pm</li>
+                    <li><img src="img/mail.png" alt="mail"><a href="#">info@car.ua</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="restore">
+            <h4>CarStore © 2022 . All Rights Reserved.</h4>
+            <img src="img/carts.png" alt="carts">
+        </section>
+    </footer>
+</div>
+</body>
+
+</html>
+
+<!-- SCRIPTS -->
+
+<script src="https://unpkg.com/swiper@8.1.4/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</div>
+
+<!-- SCROLL -->
+
+<a href="#" class="scrollup">Наверх</a>
+
+</body>
+
+</html>
