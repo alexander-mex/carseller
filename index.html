@@ -18,104 +18,142 @@
 </head>
 <div class="content-wrapper">
     <header class="header">
-        <div class="header_wrapper link">
-            <nav class="header_nav">
-                <ul class="account_form">
-                    <li class="header_list-item">
-                        <div class="icons">
-                            <span><a href="#"><i id="account-btn" class="fas fa-user"></i>My account</a></span>
-                            </i>
-                        </div>
-                    </li>
-                    <div class="account-form">
-                        <div id="close-form" class="fas fa-times"></div>
-                        <div class="buttons">
-                            <span class="btns active login-btn">Login</span>
-                            <span class="btns active register-btn">Register</span>
-                        </div>
-                        <form action="#" class="active login-form">
-                            <h3>Login</h3>
-                            <input type="email" placeholder="enter your email" class="boxes">
-                            <input type="password" placeholder="enter your password" class="boxes">
-                            <div class="form-info">
-                                <div>
-                                    <input type="checkbox" name="" id="remember-me">
-                                    <label for="remember-me">remember-me</label>
-                                </div>
-                                <a href="#">forgot password?</a>
+        <section class="menu__body">
+            <div class="header_wrapper link">
+                <nav class="header_nav">
+                    <ul class="account_form">
+                        <li class="header_list-item">
+                            <div class="account-btn" class="icons">
+                                <span>
+                                    <a href="#">
+                                        <i class="fas fa-user" style="padding-right: 10px;"></i>
+                                        My account
+                                    </a>
+                                </span>
                             </div>
-                            <input type="submit" value="Login Now" class="btns">
+                        </li>
+                        <li class="header_list-item">
+                            <div class="icons">
+                                <span><a href="#"><i class="fa-solid fa-cart-plus"></i>Cart</a></span>
+                            </div>
+                        </li>
+                        <li class="header_list-item">
+                            <div class="icons">
+                                <span><a href="#"><i class="fa-solid fa-circle-check"></i>Checkout</a></span>
+                            </div>
+                        </li>
+                        <form class="search-form" action="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="search-form__input" type="text" name="find" placeholder="Search">
+                            <button class="search-form__button" type="Submit">
+                            </button>
                         </form>
-                        <form action="#" class="register-form">
-                            <h3>Register</h3>
-                            <input type="email" placeholder="enter your email" class="boxes">
-                            <input type="password" placeholder="enter your password" class="boxes">
-                            <input type="password" placeholder="confirm your password" class="boxes">
-                            <input type="submit" value="Register Now" class="btns">
-                        </form>
-                    </div>
-                    <li class="header_list-item">
-                        <div class="icons">
-                            <span><a href="#"><i id="account-btn" class="fa-solid fa-cart-plus"></i>Cart</a></span>
-                        </div>
-                    </li>
-                    <li class="header_list-item">
-                        <div class="icons">
-                            <span><a href="#"><i id="account-btn"
-                                        class="fa-solid fa-circle-check"></i>Checkout</a></span>
-                        </div>
-                    </li>
-                    <form class="search-form" action="#">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input class="search-form__input" type="text" name="find" placeholder="Search">
-                        <button class="search-form__button" type="Submit">
-                        </button>
-                    </form>
-                </ul>
-            </nav>
+                    </ul>
+                </nav>
+
+
+                <!-- HEADER LOGO -->
+                <div class="header_wrapper_cards">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+
+                    <!-- PHONE/LOGO -->
+
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>
+                        <span>+123 456 7890</span><br><br>
+                        <span>
+                            Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm
+                        </span>
+                    </p>
+
+                    <!-- CARDS -->
+
+                    <a href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <p>WISHLIST</p>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-car"></i>
+                        <p>COMPARE</p>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>MY CART</p>
+                    </a>
+                </div>
+
+                <!-- MENU BLOCK -->
+
+                <div class="header_wrapper menu_block">
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU BLOCK FOR SMALL DEVICE -->
+
+        <div class="menu__icon">
+            <span></span>
         </div>
-
-        <!-- HEADER LOGO -->
-        <div class="header_wrapper_cards">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
-
-            <!-- PHONE/LOGO -->
-
-            <p><i class="fa-solid fa-mobile-screen-button"></i>
-                +123 456 7890<br><br>
-                <span>
-                    Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm
-                </span>
-            </p>
-
-            <!-- CARDS -->
-
-            <a href="#">
-                <i class="fa-solid fa-star"></i>
-                <p>WISHLIST</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-car"></i>
-                <p>COMPARE</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <p>MY CART</p>
-            </a>
-        </div>
-
-        <!-- MENU BLOCK -->
-
-        <div class="header_wrapper menu_block">
-            <div class="menu_block">
-                <ul class="menu">
+        <section class="menu__body-small">
+            <nav class="menu__body_small">
+                <ul class="menu__small">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About us</a></li>
                     <li><a href="reviews.html">Reviews</a></li>
                     <li><a href="locations.html">Locations</a></li>
                     <li><a href="contacts.html">Contacts</a></li>
+                    <li>
+                        <div id="account-btn">
+                            <span>
+                                <a href="#">
+                                    My account
+                                </a>
+                            </span>
+                        </div>
+                    </li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Compare</a></li>
+                    <li><a href="#">My Cart</a></li>
                 </ul>
+            </nav>
+        </section>
+
+        <!-- LOGIN/REGISTRATION FORM -->
+
+        <div class="account-form">
+            <div id="close-form" class="fas fa-times"></div>
+            <div class="buttons">
+                <span class="btns active login-btn">Login</span>
+                <span class="btns active register-btn">Register</span>
             </div>
+            <form action="#" class="active login-form">
+                <h3>Login</h3>
+                <input type="email" placeholder="enter your email" class="boxes">
+                <input type="password" placeholder="enter your password" class="boxes">
+                <div class="form-info">
+                    <div>
+                        <input type="checkbox" name="" id="remember-me">
+                        <label for="remember-me">remember-me</label>
+                    </div>
+                    <a href="#">forgot password?</a>
+                </div>
+                <input type="submit" value="Login Now" class="btns">
+            </form>
+            <form action="#" class="register-form">
+                <h3>Register</h3>
+                <input type="email" placeholder="enter your email" class="boxes">
+                <input type="password" placeholder="enter your password" class="boxes">
+                <input type="password" placeholder="confirm your password" class="boxes">
+                <input type="submit" value="Register Now" class="btns">
+            </form>
         </div>
 
         <!-- BACKGROUND PICTURE -->
@@ -141,41 +179,41 @@
 
             <section class="menu_item items">
                 <ul>
-                    <li style="background-color: #303030;"><a href="#">
+                    <li class="content_menu_items_one"><a href="#">
                             <p>
                                 Headlights
                             </p>
                             <span>
                                 Headlights Projector, LED, Factory
                             </span>
-                            <img src="img/lights.png" alt="Headlights" style="width: 50%;">
+                            <img src="img/lights.png" alt="Headlights">
                         </a></li>
-                    <li style="background-color: #1c1c1c;"><a href="#">
+                    <li class="content_menu_items_two"><a href="#">
                             <p>
                                 Brakes
                             </p>
                             <span>
                                 Brakes, caliper, brake fluid
                             </span>
-                            <img src="img/brakes.png" alt="brakes" style="margin-right: 70px;">
+                            <img src="img/brakes.png" alt="brakes">
                         </a></li>
-                    <li style="background-color: #1c1c1c;"><a href="#">
+                    <li class="content_menu_items_three"><a href="#">
                             <p>
                                 Tires and wheels
                             </p>
                             <span>
                                 Tires, wheels
                             </span>
-                            <img src="img/disk.png" alt="disk" style="margin: 40px 90px;">
+                            <img src="img/disk.png" alt="disk">
                         </a></li>
-                    <li style="background-color: #303030;"><a href="#">
+                    <li class="content_menu_items_four"><a href="#">
                             <p>
                                 Car accessories
                             </p>
                             <span>
                                 Various car accessories
                             </span>
-                            <img src="img/chair.png" alt="chairs" style="margin-right: 60px;">
+                            <img src="img/chair.png" alt="chairs">
                         </a></li>
                 </ul>
             </section>
@@ -187,35 +225,35 @@
                 <h1>Featured Products</h1>
                 <div class="box-conteiner">
                     <a href="#">
-                        <div class="box">
+                        <div class="box box_1">
                             <img src="img/turbine.png" alt="turbine">
                             <h3>Latest Car Accessories</h3>
                             <p>$300</p>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="box">
+                        <div class="box box_2">
                             <img src="img/lights_2.png" alt="lights">
                             <h3>Headlights</h3>
                             <p>$300</p>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="box">
+                        <div class="box box_3">
                             <img src="img/chair_2.png" alt="chair">
                             <h3>Chairs and care</h3>
                             <p>$300</p>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="box">
+                        <div class="box box_4">
                             <img src="img/sound.png" alt="sounds">
                             <h3>Speakers and sound</h3>
                             <p>$300</p>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="box">
+                        <div class="box box_5">
                             <img src="img/disk_1.png" alt="disk">
                             <h3>Wheels and tires</h3>
                             <p>$300</p>
